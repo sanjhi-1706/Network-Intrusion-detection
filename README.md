@@ -505,13 +505,6 @@ sbin/stop-all.sh
 # View HDFS logs
 cat $HADOOP_HOME/logs/hadoop-*-namenode-*.log
 ```
-
----
-
-## 👥 Team
-
-Big Data Analytics (BDA) Project — Hadoop + Spark + TensorFlow NIDS Pipeline
-
 ---
 
 ## 📄 License
