@@ -456,7 +456,7 @@ CICIDS-2017 CSV Dataset
          │
          ▼
 Distributed Storage on DataNodes
-(128 MB blocks, replication factor = 2)
+(128 MB blocks, replication factor = 1)
          │
          ▼
   Spark reads HDFS data
@@ -471,30 +471,10 @@ Data Cleaning + Preprocessing
   Sampling for deep learning
          │
          ▼
-TensorFlow / CNN model training
+TensorFlow / MLP model training
          │
          ▼
   Prediction and Evaluation
-```
-
----
-
-## 📁 Directory Structure
-
-```
-nids-bigdata/
-├── notebooks/
-│   └── nids_model.ipynb          # Main Jupyter Notebook
-├── data/
-│   └── part_*                    # Raw CSV dataset parts
-├── configs/
-│   ├── core-site.xml
-│   ├── hdfs-site.xml
-│   ├── yarn-site.xml
-│   └── workers
-├── models/
-│   └── cnn_model/                # Saved TensorFlow model
-└── README.md
 ```
 
 ---
